@@ -231,7 +231,7 @@ except (ValueError, KeyError):
     pass
 try:
     gameday_scores()
-except (ValueError, KeyError):
+except (ValueError, KeyError, IndexError):
     pass
     # print(diction)
     # print(data)
